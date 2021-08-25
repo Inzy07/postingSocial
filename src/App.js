@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import StepByStep from "./StepByStep/StepByStep";
 import "./styles.css";
-const PAGE_ID = "126301774116154";
+const PAGE_ID = "103514118533493";
 function App() {
   const [postCaption, setPostCaption] = useState(decodeURI(getQueryVariable('post_caption')));
   const [imgUrl] = useState(getQueryVariable('post_url'));
