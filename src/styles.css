@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    background-color: #252526;
+    color: #e4e6eb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app-main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+textarea {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+}
+
+input {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px 8px;
+}
+
+.app-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-section:not(:first-child) {
+    margin-top: 24px;
+}
+
+.btn {
+    border-radius: 4px;
+    color: #e4e6eb;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background-color: #494949;
+    color: #ccc;
+}
+
+.btn:disabled:hover {
+    cursor: not-allowed;
+}
+
+.btn:not(:disabled):hover {
+    filter: brightness(0.9);
+}
+
+.action-btn {
+    background-color: #4267B2;
+    margin-top: 8px;
+}
+.row{
+    display: flex;
+}
+.pullLeft,.pullRight{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.pullRight{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin-left: 17px;
+}
+.insta-btn{
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;
+}
+.fb-btn{
+    width: 230px;
+    margin-left: 17px;
+}
